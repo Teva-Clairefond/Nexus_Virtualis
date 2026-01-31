@@ -49,18 +49,29 @@ Chaque hyperviseur héberge ensuite des machines virtuelles Linux destinées aux
 ```text
 .
 ├── README.md
+├── LICENSE
+├── .gitignore
 ├── docs/
 │   ├── Documentation.md
-│   ├── JOB1.md
-│   ├── JOB2.md
-│   ├── JOB3.md
-│   ├── JOB4.md
-│   ├── JOB5.md
-│   ├── JOB6.md
-│   ├── JOB7.md
-│   └── JOB8.md
+│   ├── jobs/
+│   │   ├── JOB01.md
+│   │   ├── JOB02.md
+│   │   ├── JOB03.md
+│   │   ├── JOB04.md
+│   │   ├── JOB05.md
+│   │   ├── JOB06.md
+│   │   ├── JOB07.md
+│   │   ├── JOB08.md
+│   │   ├── JOB09.md
+│   │   └── JOB10.md
+│   └── annexes/
+│       ├── glossaire.md
+│       └── troubleshooting.md
 ├── images/
-│   └── schémas et captures d’écran
+│   ├── jobs/
+│   └── schemas/
+└── assets/
+    └── exports/
 ```
 
 ---
@@ -68,18 +79,8 @@ Chaque hyperviseur héberge ensuite des machines virtuelles Linux destinées aux
 ## Documentation
 
 La documentation complète du projet est disponible dans le dossier `docs/`.
-Elle est organisée par **jobs**, chacun correspondant à une étape précise du projet :
-
-* JOB 1 : Introduction à la virtualisation
-* JOB 2 : Présentation des hyperviseurs et des architectures
-* JOB 3 : Préparation de l’environnement hôte
-* JOB 4 : Virtualisation imbriquée avec VMware Workstation et Hyper-V
-* JOB 5 : Déploiement de VMware ESXi en environnement virtualisé
-* JOB 6 : Installation et utilisation de Proxmox VE
-* JOB 7 : Mise en place de XCP-ng
-* JOB 8 : Tests, validation et analyse des environnements virtualisés
-
-Chaque job décrit les objectifs, la configuration mise en place et les résultats obtenus.
+Elle est organisée par **jobs** (JOB01 à JOB10), chacun correspondant à une étape précise du projet.
+Les annexes dans `docs/annexes/` regroupent le glossaire et les informations de dépannage.
 
 ---
 
