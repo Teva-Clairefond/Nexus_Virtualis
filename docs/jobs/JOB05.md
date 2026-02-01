@@ -107,7 +107,7 @@ Dans le cadre de ce projet, ESXi est installé **à l’intérieur d’une machi
 La machine virtuelle redémarre avec ESXi installé.
 
 
-![VMware ESXi Installation](..\..\images\jobs\job05\JOB5.1_ESXi fonctionnel 1.png)
+![VMware ESXi Installation](../../images/jobs/job05/JOB5.1_ESXi%20fonctionnel%201.png)
 
 
 ---
@@ -174,7 +174,7 @@ L’interface graphique web de VMware ESXi est accessible.
 La machine virtuelle Debian est créée.
 
 
-![VMware ESXi Debian VM](..\..\images\jobs\job05\JOB5.3_VM Debian crée.png)
+![VMware ESXi Debian VM](../../images/jobs/job05/JOB5.3_VM%20Debian%20crée.png)
 
 
 ---
@@ -186,4 +186,4 @@ La machine virtuelle Debian est créée.
 3. La VM démarre et l’installation de Debian commence.
 
 
-![VMware ESXi Debian Installation](..\..\images\jobs\job05\JOB5.4_ESXi complété Debian fonctionnel.png)
+![VMware ESXi Debian Installation](../../images/jobs/job05/JOB5.4_ESXi%20complété%20Debian%20fonctionnel.png)

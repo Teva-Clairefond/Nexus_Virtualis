@@ -89,7 +89,7 @@ Les fichiers de la machine virtuelle Debian sont maintenant accessibles depuis l
    * Cliquer sur **Local file**
    * Sélectionner le fichier correspondant à la VM exportée
 
-![StarWind V2V Converter - Source](..\..\images\jobs\job08\JOB8.1_starwind.png)
+![StarWind V2V Converter - Source](../../images/jobs/job08/JOB8.1_starwind.png)
 
 
 3. Choisir la destination :
@@ -120,7 +120,7 @@ Les fichiers de la machine virtuelle Debian sont maintenant accessibles depuis l
 6. Téléverser les fichiers **.vmdk** générés par StarWind.
 
 
-![VMware ESXi Datastore Browser](C:\Users\P\Documents\lptf\Projets\20 - Opération Nexus Virtualis\Documentation_github\Nexus_Virtualis\images\jobs\job08\JOB8.2_telechargement_VM_import.png)
+![VMware ESXi Datastore Browser](../../images/jobs/job08/JOB8.2_telechargement_VM_import.png)
 
 
 ---

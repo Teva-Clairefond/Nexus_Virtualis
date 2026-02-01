@@ -153,7 +153,7 @@ XCP-ng étant utilisé avec XO Lite, l’ajout de l’ISO Debian se fait en lign
 7. Redémarrer la machine virtuelle XCP-ng dans VMware Workstation Pro.
 
 
-![ XCP-ng Installation](..\..\images\jobs\job07\JOB7.1-XCPng installation terminée.png)
+![XCP-ng Installation](../../images/jobs/job07/JOB7.1-XCPng%20installation%20terminée.png)
 
 
 ---
@@ -165,7 +165,7 @@ XCP-ng étant utilisé avec XO Lite, l’ajout de l’ISO Debian se fait en lign
 3. Se connecter avec l’identifiant **root** et le mot de passe défini précédemment.
 
 
-![XCP-ng Web Interface](..\..\images\jobs\job07\JOB7.2-XCPng connection navigateur.png)
+![XCP-ng Web Interface](../../images/jobs/job07/JOB7.2-XCPng%20connection%20navigateur.png)
 
 
 ---
@@ -191,4 +191,4 @@ XCP-ng étant utilisé avec XO Lite, l’ajout de l’ISO Debian se fait en lign
 La machine virtuelle démarre et l’installation de Debian commence.
 
 
-![XCP-ng Debian Installation](..\..\images\jobs\job07\JOB7.3-XCPng fonctionnel.png)
+![XCP-ng Debian Installation](../../images/jobs/job07/JOB7.3-XCPng%20fonctionnel.png)
