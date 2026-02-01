@@ -65,8 +65,7 @@ operation-nexus-virtualis/
 │   │   ├── JOB09.md
 │   │   └── JOB10.md
 │   └── annexes/
-│       ├── glossaire.md
-│       └── troubleshooting.md
+│       └── glossaire.md
 ├── images/
 │   ├── jobs/
 │   └── schemas/
