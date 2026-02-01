@@ -1,0 +1,24 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# VM / virtualisation (souvent lourd)
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.qcow2
+*.ova
+*.ovf
+*.iso
+
+# Exports locaux
+assets/exports/*
+!assets/exports/.gitkeep

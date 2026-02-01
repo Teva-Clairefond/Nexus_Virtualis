@@ -3,9 +3,9 @@
 ## Présentation
 
 **Opération Nexus Virtualis** est un projet pédagogique consacré à la **virtualisation imbriquée (nested virtualization)**.
-Il vise à concevoir, déployer et documenter des architectures de virtualisation complexes en utilisant plusieurs hyperviseurs, eux-mêmes exécutés dans des environnements virtualisés.
+Il a pour objectif de concevoir, déployer et analyser des architectures de virtualisation complexes, en mettant en œuvre plusieurs hyperviseurs exécutés au sein d’environnements virtualisés.
 
-Le projet met l’accent sur la compréhension des mécanismes internes de la virtualisation, la configuration réseau, la gestion des ressources et le déploiement de machines Linux.
+Le projet couvre l’ensemble du cycle : compréhension théorique, préparation de l’environnement, déploiement des hyperviseurs, création de machines virtuelles, puis validation et analyse des résultats.
 
 ---
 
@@ -16,7 +16,8 @@ Le projet met l’accent sur la compréhension des mécanismes internes de la vi
 * Mettre en œuvre la virtualisation imbriquée
 * Installer et configurer plusieurs hyperviseurs
 * Déployer et administrer des machines virtuelles Linux
-* Documenter une infrastructure technique de manière claire et exploitable
+* Tester, valider et analyser une infrastructure virtualisée
+* Produire une documentation technique claire et structurée
 
 ---
 
@@ -39,28 +40,38 @@ Le projet met l’accent sur la compréhension des mécanismes internes de la vi
 
 ## Architecture générale
 
-Le projet repose sur une machine hôte exécutant un hyperviseur de type 2, au sein duquel sont déployés plusieurs hyperviseurs de type 1.
-Chaque hyperviseur héberge ensuite des machines virtuelles Linux destinées aux tests et à la validation du fonctionnement de la virtualisation imbriquée.
+Le projet repose sur une machine hôte exécutant un hyperviseur de type 2.
+À l’intérieur de cet environnement sont déployés plusieurs hyperviseurs de type 1, chacun hébergeant des machines virtuelles Linux destinées aux tests et à la validation de la virtualisation imbriquée.
 
 ---
 
 ## Structure du dépôt
 
 ```text
-.
+operation-nexus-virtualis/
 ├── README.md
+├── .gitignore
 ├── docs/
 │   ├── Documentation.md
-│   ├── JOB1.md
-│   ├── JOB2.md
-│   ├── JOB3.md
-│   ├── JOB4.md
-│   ├── JOB5.md
-│   ├── JOB6.md
-│   ├── JOB7.md
-│   └── JOB8.md
+│   ├── jobs/
+│   │   ├── JOB01.md
+│   │   ├── JOB02.md
+│   │   ├── JOB03.md
+│   │   ├── JOB04.md
+│   │   ├── JOB05.md
+│   │   ├── JOB06.md
+│   │   ├── JOB07.md
+│   │   ├── JOB08.md
+│   │   ├── JOB09.md
+│   │   └── JOB10.md
+│   └── annexes/
+│       ├── glossaire.md
+│       └── troubleshooting.md
 ├── images/
-│   └── schémas et captures d’écran
+│   ├── jobs/
+│   └── schemas/
+└── assets/
+    └── exports/
 ```
 
 ---
@@ -70,16 +81,18 @@ Chaque hyperviseur héberge ensuite des machines virtuelles Linux destinées aux
 La documentation complète du projet est disponible dans le dossier `docs/`.
 Elle est organisée par **jobs**, chacun correspondant à une étape précise du projet :
 
-* JOB 1 : Introduction à la virtualisation
-* JOB 2 : Présentation des hyperviseurs et des architectures
-* JOB 3 : Préparation de l’environnement hôte
-* JOB 4 : Virtualisation imbriquée avec VMware Workstation et Hyper-V
-* JOB 5 : Déploiement de VMware ESXi en environnement virtualisé
-* JOB 6 : Installation et utilisation de Proxmox VE
-* JOB 7 : Mise en place de XCP-ng
-* JOB 8 : Tests, validation et analyse des environnements virtualisés
+* JOB 01 : Introduction à la virtualisation
+* JOB 02 : Présentation des hyperviseurs et des architectures
+* JOB 03 : Préparation de l’environnement hôte
+* JOB 04 : Virtualisation imbriquée avec VMware Workstation et Hyper-V
+* JOB 05 : Déploiement de VMware ESXi en environnement virtualisé
+* JOB 06 : Installation et utilisation de Proxmox VE
+* JOB 07 : Mise en place de XCP-ng
+* JOB 08 : Tests et validation des environnements virtualisés
+* JOB 09 : Analyse, réponses aux questions et approfondissement
+* JOB 10 : Conclusion technique et retour d’expérience
 
-Chaque job décrit les objectifs, la configuration mise en place et les résultats obtenus.
+Chaque job détaille les objectifs, la procédure, les résultats attendus et les méthodes de validation.
 
 ---
 
