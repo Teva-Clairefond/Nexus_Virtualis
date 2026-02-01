@@ -122,7 +122,7 @@ Cette configuration permet ensuite de créer et gérer des machines virtuelles d
 7. Sélectionner la VM Debian et cliquer sur **Démarrer**.
 
 
-![Hyper-V Debian VM](C:\Users\P\Documents\lptf\Projets\20 - Opération Nexus Virtualis\Documentation_github\Nexus_Virtualis\images\jobs\job04\job4.1_hyper-V.png)
+![Hyper-V Debian VM](..\..\images\jobs\job04\job4.1_hyper-V.png)
 
 *Interface web de VMware ESXi après installation.*
 

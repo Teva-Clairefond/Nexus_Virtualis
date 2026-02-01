@@ -104,7 +104,7 @@ Dans ce projet, Proxmox VE est installé à l’intérieur d’une machine virtu
 La machine virtuelle redémarre avec Proxmox VE installé.
 
 
-![Proxmox VE Installation](C:\Users\P\Documents\lptf\Projets\20 - Opération Nexus Virtualis\Documentation_github\Nexus_Virtualis\images\jobs\job06\JOB6.1_promox fonctionnel 1.png)
+![Proxmox VE Installation](..\..\images\jobs\job06\JOB6.1_promox fonctionnel 1.png)
 
 
 ---
@@ -117,7 +117,7 @@ La machine virtuelle redémarre avec Proxmox VE installé.
 4. Se connecter avec les identifiants définis lors de l’installation.
 
 
-![Proxmox VE Web Interface](C:\Users\P\Documents\lptf\Projets\20 - Opération Nexus Virtualis\Documentation_github\Nexus_Virtualis\images\jobs\job06\JOB6.2_Proxmox fonctionnel 2.png)
+![Proxmox VE Web Interface](..\..\images\jobs\job06\JOB6.2_Proxmox fonctionnel 2.png)
 
 
 ---
@@ -152,4 +152,4 @@ La machine virtuelle redémarre avec Proxmox VE installé.
 3. La machine virtuelle se lance et l’installation de Debian commence.
 
 
-![Proxmox VE Debian Installation](C:\Users\P\Documents\lptf\Projets\20 - Opération Nexus Virtualis\Documentation_github\Nexus_Virtualis\images\jobs\job06\JOB6.3_promox fonctionnel 3.png)
+![Proxmox VE Debian Installation](..\..\images\jobs\job06\JOB6.3_promox fonctionnel 3.png)
